@@ -1,0 +1,12 @@
+.main_banner {
+    padding-top: 200px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: url("images/banner.jpg");
+
+}
+#footer {
+    background: #000 none repeat scroll 0 0;
+    color: #fff;
+    padding: 20px;
+}

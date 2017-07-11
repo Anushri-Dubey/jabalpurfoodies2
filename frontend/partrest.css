@@ -1,0 +1,117 @@
+
+.imgofpr>img{
+	
+	width:100%;
+	height:670px;
+	margin-bottom:50px;
+	position:relative;
+	
+	
+}
+.imgofpr>h1 {
+	z-index:999;
+	margin-top:60px;
+	
+	position:absolute;
+	 left:50%;
+	 color:#353D8B;
+	 
+	 font-size:100px;
+	 font-weight:bold;
+	/* width:950px;*/
+	 /*<!--background:#253251;-->*/
+	 border:1px solid none;
+	 border-radius:10px;
+	 
+    margin-left: -300px;
+    top: 100px;
+    text-align: center;
+}
+/*************somemore***********************/
+.info{
+	text-align:center;
+	width:770px;
+	float:left;
+	color:green;
+	}
+	
+/***********************ready****************/
+
+.outer{border:1px solid #253251;
+		display:block;
+		width:270px;
+	
+		background:#253251;
+		border-radius:10px;
+		float:left;
+		color:#fff;
+		margin-right:10px;
+		margin-bottom:114px;
+		height:380px;}
+.container{width:1000px;
+			margin:0 auto;}
+.inner{display:block;
+		border:1px solid #253251;
+		margin-top:36px;
+		color:#000;
+		margin-bottom:21px;
+		margin-left:4px;
+		margin-right:4px;
+		background:#fff;
+		height:230px;
+}
+.someitem>.fa{color:#000;
+		margin-right:4%;}
+.container > h1{text-align:center; margin-bottom:87px;}
+.inner:3 child{margin-bottom:11px;}
+.outer h2 {text-align:center;
+			}
+.outer .inner h2{margin-bottom:5px;}
+.inner ul li{
+	list-style-image:url(img/list.gif);}
+.outer h3{text-align:center;}
+
+.clear{clear:both;}
+/************************daily pics******************/
+.dailypic{background:#2db34a;
+			overflow:auto;
+			color:#ccc;
+			text-align:center;
+			margin-bottom:5%;
+			margin-top:5%;
+}			
+.letmedo>img{height:190px;
+		}
+
+/*******************reviews****************/
+
+.reviews
+{
+	position:relative;
+	
+}
+.reviews>img{width:100%;
+			height:700px;
+			background-attachment:fixed;}
+.formreview{position:absolute;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	z-index:999;
+	top:100px;
+	left:60px;
+    }
+
+.form-group>input{background:none;}
+#ta{background:none;}
+#btn{
+	margin-top:100px;	
+}
+
+.marsome{margin-top:2px;}
+.commentadd>.container>h1{margin-bottom:2px;}
+.commentadd{background-image:url(img/banner.jpg);
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-attachment:fixed;
+			overflow:auto;}

@@ -1,0 +1,40 @@
+.filter>.box
+		{
+			width:400px;
+			/*border-right:1px solid black;*/
+			margin-top:50px;
+			margin-bottom:150px;
+			padding:20px;
+			color:#fff;
+			
+		}
+	
+.filter{
+		background-image:url(img/sbs.jpg);
+		width:100%;
+		background-repeat:no-repeat;
+		background-size:cover;
+			overflow:auto;
+			
+			
+}
+.filterlist>.box
+		{	margin-left:20px;
+			width:800px;
+			margin-top:50px;
+			
+		}
+.sidebyside{
+			float:left;
+			padding-bottom:100px;
+			padding-top:10px;
+			}
+			
+.clear{clear:both;}
+
+.form-group{background:none;}
+.form-control{background:none;
+				}
+				
+#btnwork{
+		margin-bottom:10px;}
