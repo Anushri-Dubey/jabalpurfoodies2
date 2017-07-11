@@ -58,7 +58,7 @@ include "header.php";
 					</div>
 					</div>
 					
-			<div class="first_carousel owl-carousel" style="margin-bottom:20px;">
+			<!--<div class="first_carousel owl-carousel" style="margin-bottom:20px;">
 				
 							  <div  class="letme"> <img src="frontend/img/i7.jpg"></div>
 							  <div  class="letme"> <img src="frontend/img/i4.jpg"></div>
@@ -69,7 +69,29 @@ include "header.php";
 							  <div  class="letme"> <img src="frontend/img/dominos.jpg"></div>
 							  <!--<div  class="letme"> <img src="img7.jpg"></div>	-->
 							  
-					</div>		  
+					<!--</div>	-->
+						<?php
+							echo '<div class="owl-carousel first_carousel" style="margin-bottom:20px;">';
+							$ret="select images from restaurant";
+											
+										
+											$weget=mysqli_query($con,$ret);
+											while($row=mysqli_fetch_assoc($weget))
+											{ 	
+										
+												
+												$array=explode(",",$row['images']);
+													
+													
+												foreach($array as $i)
+												{
+													echo "<div class='letme' ><img src='$i'></div>";
+							
+				
+												}
+											}
+									echo "</div>";
+								?>
 				</div>
 				<!----google map-->
 				
